@@ -1,5 +1,5 @@
 {
-  "name": "@kimmi/draft-js-plugins-video",
+  "name": "@jaquekirino/draft-js-plugins-video",
   "version": "4.1.4",
   "sideEffects": [
     "*.css"
