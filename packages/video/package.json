@@ -1,6 +1,6 @@
 {
   "name": "@omella/draft-js-plugins-video",
-  "version": "4.1.9",
+  "version": "4.1.10",
   "sideEffects": [
     "*.css"
   ],

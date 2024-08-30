@@ -11,7 +11,7 @@ const VIMEO_PREFIX = 'https://player.vimeo.com/video/';
 const getSrc = ({ src }: { src: string }): string | undefined => {
   if (isYoutube(src)) {
     const { srcID } = getYoutubeSrc(src);
-    const params = '?rel=0&modestbranding=1&autohide=1';
+    const params = '?rel=0&autohide=1';
     return `${YOUTUBE_PREFIX}${srcID}${params}`;
   }
   if (isVimeo(src)) {
